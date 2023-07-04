@@ -30,10 +30,10 @@ export const Timeline = () => {
         <h2 className="section__title" data-aos="fade-right">
           My <span className="different">Timeline 💫</span>
         </h2>
-         <VerticalTimeline lineColor={linecolor}>
-          {/*  
+        <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={"Dec 2021 - Feb 2022"}
+            className="vertical-timeline-element--work"
+            date={"NOV 2022 - July 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -55,59 +55,18 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student Guide Cordinator
+              Front-end Developer (React Js)
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School
+              BeH private Limited (Swasthya.ai), Mumbai (MH)
             </h4>
-            <p data-aos="fade-right">
-              Managing Team of 15 Student Guides directly and 100-150 students
-              indirectly with help of student guides.
-            </p>
+            <p data-aos="fade-right">Started in Nov 2022 and till July 2023.</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Nov 2021 - Dec 2021"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          > */}
-            {/* <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Student Guide
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Masai School
-            </h4>
-            <p data-aos="fade-right">
-              Mentoring and clearing student's doubts via one to one and one to
-              all video calls, Motivating students to do hard work, provides
-              emotional support to them & Helping students to start their career
-              in Tech.
-            </p>
-          </VerticalTimelineElement> */}
-          <VerticalTimelineElement
-            date={"Oct 2022 - Present"}
+            date={"Oct 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -140,7 +99,7 @@ export const Timeline = () => {
             <p data-aos="fade-right">
               Joined the Military coding school to learn Full Stack Development
               and DSA. Also get to learn lot more other skills as well.
-            </p> 
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -166,7 +125,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-               Steam Engineering Course
+              Steam Engineering Course
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -174,9 +133,7 @@ export const Timeline = () => {
             >
               Forbes Marshall Steam Engineering Center, Pune(MH)
             </h4>
-            <p data-aos="fade-right">
-            Started in Aug 2019 and  till Jun 2020.
-            </p>
+            <p data-aos="fade-right">Started in Aug 2019 and till Jun 2020.</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -210,9 +167,7 @@ export const Timeline = () => {
             >
               Om GreenTech Industries, Aurangabad (MH)
             </h4>
-            <p data-aos="fade-right">
-              Started in Jun 2021 and  till Dec 2021.
-            </p>
+            <p data-aos="fade-right">Started in Jun 2021 and till Dec 2021.</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -244,7 +199,8 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              S.S.G.B College of Engineering & Tech, Kbc NMU University, Bhusawal (MH)
+              S.S.G.B College of Engineering & Tech, Kbc NMU University,
+              Bhusawal (MH)
             </h4>
             {/* <p data-aos="fade-right">
               Studied Agricultural Engineering which consists of all the

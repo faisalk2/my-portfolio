@@ -21,11 +21,11 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Passionate and creative Full Stack Developer having proficiency in
-          MERN Stack. Attired with a variety of tools & technologies and keen to
-          learn new one. with experience creating clone of
-          websites with JavaScript, HTML, CSS, ReactJs, Express, NodeJs, MongoDB and chakraUI css
-          framework
+          Passionate and creative React Developer with 7 months of experience.
+          Attired with a variety of tools & technologies and keen to learn new
+          one. having Knowledge of JavaScript, HTML, CSS, ReactJs, Express,
+          NodeJs, MongoDB, TypeScript, GraphQL, React-Boostrap, Material UI and
+          chakraUI css framework
         </p>
         <div className="about__contact center">
           <a
@@ -79,7 +79,7 @@ export const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/12zsCUZyakh4Zf4U9SBl7cRgZ2wZw7kev/view?usp=sharing"
+              "https://drive.google.com/file/d/1rargsxuu7338U-3SS5z_p_KGSIDHwdAz/view?usp=drive_link"
             );
           }}
         >
