@@ -12,6 +12,19 @@
   margin-top: 0.4em;
 }
 
+/* .stickyNav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  border: 1px solid red;
+} */
+
+/* .stickyNav ul{
+  display: flex;
+  justify-content: center;
+} */
+
 @media (max-width: 600px) {
   .nav__list {
     display: none;

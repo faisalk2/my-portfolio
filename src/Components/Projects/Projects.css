@@ -6,7 +6,6 @@
 
 .project {
   width: 100%;
-  /* height: 70vh; */
   margin: 6% 0% 6% 0%;
   box-shadow: var(--shadow);
   display: flex;
@@ -116,6 +115,10 @@
     flex-direction: column;
   }
 
+  .projectPadding{
+    padding-top: 7rem;
+  }
+
 @media (max-width: 800px) {
   .project {
     flex-direction: column;
@@ -134,5 +137,28 @@
   .projects_container {
     width: 100%;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .project {
+    flex-direction: column;
+  }
+  .project_videocontainer {
+    flex-basis: 40%;
+  }
+  .project_information {
+    flex-basis: 60%;
+  }
+  .allProjects{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .projects_container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .projectPadding{
+    margin-top: 0;
   }
 }

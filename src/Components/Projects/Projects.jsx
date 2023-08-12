@@ -14,7 +14,7 @@ import { IoLogoJavascript } from "react-icons/io";
 export const Projects = () => {
   return (
     <>
-      <div className="section">
+      <div className="section projectPadding">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
           <div className="projects_container" data-aos="fade-right">
@@ -134,7 +134,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://gorgeous-sopapillas-340399.netlify.app/"
+                    href="https://incomparable-kheer-67acf9.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >

@@ -1,7 +1,6 @@
 .about {
   flex-direction: column;
-  margin-top: 3em;
-  /* margin-top: 11%;  */
+  margin-top: 7em;
 }
 /* change is here*/
 .about__name {
@@ -46,6 +45,10 @@
   color: var(--clr-bg);
 }
 
+.aboutPadding{
+  padding-top: 6rem;
+}
+
 @media (max-width: 600px) {
   .mobileHead{
     align-content: center;
@@ -58,5 +61,8 @@
   }
   .about > :nth-child(2) {
     font-size: 1.5rem;
+  }
+  .aboutPadding{
+    padding-top: 0px;
   }
 }

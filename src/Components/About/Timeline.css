@@ -6,6 +6,10 @@
   margin-bottom: 2em;
 }
 
+.timelinePadding {
+  padding-top: 10rem;
+}
+
 .vertical-timeline-element-subtitle {
   margin-top: 0.5em;
   font-size: 0.9em;
@@ -16,4 +20,12 @@
   color: var(--clr-primary);
 }
 
+.timelinePadding {
+  padding-top: 7rem;
+}
 
+@media (max-width: 600px) {
+  .timelinePadding {
+    padding-top: 0px;
+  }
+}

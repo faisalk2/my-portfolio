@@ -9,7 +9,7 @@ export const Header = () => {
 
   return (
     <>
-      <header className={"header center " + themename}>
+      <header  className={"header center " + themename}>
         <h3>
           <a href="#home" className="link">
             Faisal

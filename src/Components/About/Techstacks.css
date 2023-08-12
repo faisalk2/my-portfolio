@@ -35,8 +35,6 @@
 }
 
 .techsection > div > svg {
-  /* height: 50%;
-  width: 50%; */
   font-size: 8vh;
   color: var(--clr-primary);
 }
@@ -46,14 +44,21 @@
   background-color: transparent;
 }
 
+.skillPadding{
+  padding-top: 7rem;
+}
+
 @media (max-width: 600px) {
   .techsection {
-    height: 120vh;
+    height: 80vh;
   }
   .techsection > div {
     width: 40%;
     margin-right: 5%;
     margin-bottom: 2%;
     height: 18vh;
+  }
+  .skillPadding{
+    padding-top: 0px;
   }
 }
